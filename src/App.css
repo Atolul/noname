@@ -9,6 +9,7 @@ a{
 }
 
 body{
+  background-color: black;
     min-height: 100vh;
     display: flex;
 }
