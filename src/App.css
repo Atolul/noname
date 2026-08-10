@@ -1,0 +1,181 @@
+*{
+    margin: 12px;
+    padding: 0px;
+}
+
+a{
+    color: rgb(217, 227, 237);
+    text-decoration: none;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+}
+
+.navbar {
+    position: fixed;
+    background-color: #48494aea;
+    border-radius: 5px;
+    color: aliceblue;
+    
+    
+}
+
+
+
+img {
+    width: 80%;
+}
+
+
+/*hide the inputs/checkmarks and submenu*/
+input, ul.submenu {
+  display: none;
+  flex-direction: column;
+  text-align: left;
+  line-height: 5px;
+  margin: 0px;
+  font-size: 16px;
+  
+  
+}
+
+/*position the label*/
+label {
+  position: relative;
+  display: flex;
+  cursor: pointer;
+}
+
+/*show the submenu when input is checked*/
+input:checked~ul.submenu {
+  display: flex;
+
+}
+
+
+li {
+    list-style: none;
+}
+
+
+/*2D submenu01_1*/
+input, ul.submenu01_1 {
+  display: none;
+  flex-direction: column;
+  text-align: left;
+}
+
+input:checked~ul.submenu01_1 {
+  display: flex;
+
+}
+
+/*2D submenu01_2*/
+input, ul.submenu01_2 {
+  display: none;
+  flex-direction: column;
+  text-align: left;
+}
+
+input:checked~ul.submenu01_2 {
+  display: flex;
+
+}
+
+/*2D submenu01_3*/
+input, ul.submenu01_3 {
+  display: none;
+  flex-direction: column;
+  text-align: left;
+}
+
+input:checked~ul.submenu01_3 {
+  display: flex;
+
+}
+
+/*2D submenu01_4*/
+input, ul.submenu01_4 {
+  display: none;
+  flex-direction: column;
+  text-align: left;
+}
+
+input:checked~ul.submenu01_4 {
+  display: flex;
+
+}
+
+/*3D submenu02_1*/
+input, ul.submenu02_1 {
+  display: none;
+  flex-direction: column;
+  text-align: left;
+}
+
+input:checked~ul.submenu02_1 {
+  display: flex;
+
+}
+
+/*3D submenu02_2*/
+input, ul.submenu02_2 {
+  display: none;
+  flex-direction: column;
+  text-align: left;
+}
+
+input:checked~ul.submenu02_2 {
+  display: flex;
+
+}
+
+/*3D submenu02_3*/
+input, ul.submenu02_3 {
+  display: none;
+  flex-direction: column;
+  text-align: left;
+}
+
+input:checked~ul.submenu02_3 {
+  display: flex;
+
+}
+
+/*3D submenu02_4*/
+input, ul.submenu02_4 {
+  display: none;
+  flex-direction: column;
+  text-align: left;
+}
+
+input:checked~ul.submenu02_4 {
+  display: flex;
+
+}
+
+/*GAME submenu03_1*/
+input, ul.submenu03_1 {
+  display: none;
+  flex-direction: column;
+  text-align: left;
+}
+
+input:checked~ul.submenu03_1 {
+  display: flex;
+
+}
+
+/*GAME submenu03_2*/
+input, ul.submenu03_2 {
+  display: none;
+  flex-direction: column;
+  text-align: left;
+}
+
+input:checked~ul.submenu03_2 {
+  display: flex;
+
+}
