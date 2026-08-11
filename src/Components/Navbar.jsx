@@ -53,7 +53,7 @@ export function Navbar(){
                         <input id="02_1" type="checkbox" name="menu" />
                         <label for="02_1">Modeling</label>
                         <ul class="submenu02_1">
-                            
+                            <Link to="/mod1">(1)</Link>
                         </ul>
                     </div>
 
